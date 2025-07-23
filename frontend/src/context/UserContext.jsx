@@ -3,7 +3,7 @@ import axios from 'axios';
 import { URL } from '../url';
 
 export const UserContext = createContext({});
-
+const url="https://blogging-web-os6a.onrender.com"
 export const UserContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
